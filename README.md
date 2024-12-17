@@ -65,34 +65,29 @@ Y= A⊕B
 **PROGRAM**
 ```
 Program for logic gates and verify its truth table in quartus using Verilog programming
- Developed by: PRANAV BHARGAV M
- RegisterNumber: 24008244
+
+ Developed by:S SANJAY
+ RegisterNumber: 24000656
  ```
-```
-module Full_Adder(sum, cout, a, b, cin);
-    output sum;
-    output cout;
-    input a;
-    input b;
-    input cin;
-	 wire w1,w2,w3;
-	 assign w1=a^b;
-	 assign w2=a&b;
-	 assign w3=w1&cin;
-	 assign sum=w1^cin;
-	 assign cout=w2|w3;
-endmodule
-```
+![0001](https://github.com/user-attachments/assets/baf8cd80-2519-45af-8825-30211ba730d6)
+
+
 **Logic symbol & Truthtable**
 
+![image](https://github.com/user-attachments/assets/c76a2d2c-83c6-4c7c-b20b-f45ff7bf0e55)
 
-**RTL realization Output:** 
-![Screenshot (21)](https://github.com/user-attachments/assets/cac56c5c-5e97-4d48-b8dc-29191b572279)
+**RTL realization**
 
-**RTL**
-![Screenshot (22)](https://github.com/user-attachments/assets/8119cb8e-a250-4056-b544-522d7cd1a0a9)
+![image](https://github.com/user-attachments/assets/e848d4a3-d5d4-49ee-83b6-b7aeaea9fb76)
+
+
+**Output:** 
+
+![001](https://github.com/user-attachments/assets/f1b78d8f-f61a-48c0-bae6-b92531bc91cf)
+
+
+
 
 **Result:**
-Thus the basic logic gates are studied and the truth tables are verified
 
-
+Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
